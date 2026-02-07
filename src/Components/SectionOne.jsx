@@ -25,7 +25,7 @@ const features = [
 export default function SectionOne() {
   return (
     <section
-      className="w-full py-20 min-h-screen bg-cover bg-center relative"
+      className="w-full py-20 bg-cover bg-center relative"
       style={{ backgroundImage: `url(${Background})` }}
     >
       {/* Heading */}
