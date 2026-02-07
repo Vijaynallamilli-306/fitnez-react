@@ -6,7 +6,7 @@ export default function HomeSection() {
     <section
       className="
         w-full min-h-screen
-        pt-16 sm:pt-20
+        pt-24 sm:pt-28
         bg-cover bg-center relative
       "
       style={{ backgroundImage: `url(${hero})` }}
@@ -15,7 +15,7 @@ export default function HomeSection() {
       <div className="absolute inset-0 bg-gradient-to-r from-green-700/40 via-teal-600/40 to-purple-700/40"></div>
 
       {/* Hero Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-center text-white px-4 sm:px-6 min-h-[calc(100vh-5rem)]">
+      <div className="relative z-10 flex flex-col items-center justify-center text-center text-white px-4 sm:px-6 min-h-screen">
         <h1
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl
                      font-light mb-4 tracking-wide"
@@ -71,11 +71,7 @@ export default function HomeSection() {
                      transition-transform duration-300 ease-out
                      hover:-translate-y-2 hover:scale-[1.02]"
         >
-          <h3
-            className="text-xl sm:text-2xl italic mb-3 sm:mb-4
-                       transition-colors duration-300
-                       group-hover:text-green-300"
-          >
+          <h3 className="text-xl sm:text-2xl italic mb-3 sm:mb-4 transition-colors duration-300 group-hover:text-green-300">
             Professional ~
           </h3>
 
@@ -92,11 +88,7 @@ export default function HomeSection() {
                      transition-transform duration-300 ease-out
                      hover:-translate-y-2 hover:scale-[1.02]"
         >
-          <h3
-            className="text-xl sm:text-2xl italic mb-3 sm:mb-4
-                       transition-colors duration-300
-                       group-hover:text-emerald-300"
-          >
+          <h3 className="text-xl sm:text-2xl italic mb-3 sm:mb-4 transition-colors duration-300 group-hover:text-emerald-300">
             Affordable ~
           </h3>
 
@@ -113,11 +105,7 @@ export default function HomeSection() {
                      transition-transform duration-300 ease-out
                      hover:-translate-y-2 hover:scale-[1.02]"
         >
-          <h3
-            className="text-xl sm:text-2xl italic mb-3 sm:mb-4
-                       transition-colors duration-300
-                       group-hover:text-cyan-300"
-          >
+          <h3 className="text-xl sm:text-2xl italic mb-3 sm:mb-4 transition-colors duration-300 group-hover:text-cyan-300">
             Experienced ~
           </h3>
 
