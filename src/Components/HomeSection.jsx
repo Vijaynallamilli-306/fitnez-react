@@ -4,14 +4,18 @@ import hero from "../assets/index_1.jpg";
 export default function HomeSection() {
   return (
     <section
-      className="w-full bg-cover bg-center relative"
+      className="
+        w-full min-h-screen
+        pt-16 sm:pt-20
+        bg-cover bg-center relative
+      "
       style={{ backgroundImage: `url(${hero})` }}
     >
       {/* Overlay Gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-green-700/40 via-teal-600/40 to-purple-700/40"></div>
 
       {/* Hero Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-center text-white px-4 sm:px-6">
+      <div className="relative z-10 flex flex-col items-center justify-center text-center text-white px-4 sm:px-6 min-h-[calc(100vh-5rem)]">
         <h1
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl
                      font-light mb-4 tracking-wide"
@@ -61,7 +65,7 @@ export default function HomeSection() {
                    py-10 sm:py-12 md:py-16
                    backdrop-blur-sm bg-black/30"
       >
-        {/* Box 1 */}
+        {/* Professional */}
         <div
           className="group text-center px-2 sm:px-4 mb-8 md:mb-0
                      transition-transform duration-300 ease-out
@@ -82,7 +86,7 @@ export default function HomeSection() {
           </p>
         </div>
 
-        {/* Box 2 */}
+        {/* Affordable */}
         <div
           className="group text-center px-2 sm:px-4 mb-8 md:mb-0
                      transition-transform duration-300 ease-out
@@ -91,7 +95,7 @@ export default function HomeSection() {
           <h3
             className="text-xl sm:text-2xl italic mb-3 sm:mb-4
                        transition-colors duration-300
-                       group-hover:text-green-300"
+                       group-hover:text-emerald-300"
           >
             Affordable ~
           </h3>
@@ -103,7 +107,7 @@ export default function HomeSection() {
           </p>
         </div>
 
-        {/* Box 3 */}
+        {/* Experienced */}
         <div
           className="group text-center px-2 sm:px-4
                      transition-transform duration-300 ease-out
@@ -112,7 +116,7 @@ export default function HomeSection() {
           <h3
             className="text-xl sm:text-2xl italic mb-3 sm:mb-4
                        transition-colors duration-300
-                       group-hover:text-green-300"
+                       group-hover:text-cyan-300"
           >
             Experienced ~
           </h3>
