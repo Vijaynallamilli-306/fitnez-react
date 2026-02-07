@@ -15,7 +15,7 @@ export default function HomeSection() {
       <div className="absolute inset-0 bg-gradient-to-r from-green-700/40 via-teal-600/40 to-purple-700/40"></div>
 
       {/* Hero Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center text-center text-white px-4 sm:px-6">
+      <div className="relative z-10 flex flex-col items-center justify-center text-center text-white px-4 sm:px-6 min-h-screen">
         <h1
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl
                      font-light mb-4 tracking-wide"
