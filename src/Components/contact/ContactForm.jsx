@@ -94,9 +94,9 @@ const ContactForm = () => {
 
             {/* Contact Information List */}
             <div className="space-y-6">
-              <ContactDetailItem Icon={Phone} text="800 1234 5678" />
-              <ContactDetailItem Icon={Mail} text="info@yourwebsite.com" />
-              <ContactDetailItem Icon={Globe} text="www.website.com" />
+              <ContactDetailItem Icon={Phone} text="+91 8464878174" />
+              <ContactDetailItem Icon={Mail} text="vijayreddynallamilli650@gmail.com" />
+              <ContactDetailItem Icon={Globe} text="https://fitnez-react-utf8.vercel.app/" />
             </div>
           </div>
         </div>
