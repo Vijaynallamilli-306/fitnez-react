@@ -4,7 +4,7 @@ import hero from "../assets/index_1.jpg";
 export default function HomeSection() {
   return (
     <section
-      className="w-full min-h-screen bg-cover bg-center relative"
+      className="w-full bg-cover bg-center relative"
       style={{ backgroundImage: `url(${hero})` }}
     >
       {/* Overlay Gradient */}

@@ -44,7 +44,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white font-sans flex justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div className="bg-white font-sans flex justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl w-full">
         {/* Header Section */}
         <header className="mb-10">
