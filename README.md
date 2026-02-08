@@ -148,7 +148,3 @@ React • Tailwind CSS • UI Development
 ## 📄 License
 
 This project is created for learning and portfolio purposes only.
-
-This README is **perfectly suitable for GitHub and interviews**.
-
-Your project already looks very strong for a frontend fresher profile, Vijay 👏
